@@ -26,6 +26,7 @@ SF = []
 
 M = []
 
+%%
 for x in l:
     
     if x <= a:
@@ -45,7 +46,9 @@ for x in l:
     X.append(x)
     
     SF.append(sf)
-
+    
+  
+%%
 plt.subplot(2,1,1)
 
 plt.plot(X,M)
@@ -58,7 +61,7 @@ plt.xlabel("Length in m")
 
 plt.ylabel("Bending Moment in Nm")
 
-
+%%
 
 plt.subplot(2,1,2)
 
@@ -75,7 +78,7 @@ plt.xlabel("Length in m")
 plt.ylabel("Shear Force in N")
 
 
-
+%%
 plt.show()
 
 
