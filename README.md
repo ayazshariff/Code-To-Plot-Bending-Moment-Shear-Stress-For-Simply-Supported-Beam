@@ -1,7 +1,3 @@
-# Code-To-Plot-Bending-Moment-Shear-Stress-For-Simply-Supported-Beam
-
-Ayaz Shariff
-
 # code to find out bending moment and shear stress acting upon a simple supported bar
 
 import numpy as np
